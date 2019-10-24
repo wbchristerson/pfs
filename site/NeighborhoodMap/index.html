@@ -1,0 +1,614 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="A site displaying some projects that I have created">
+      
+      
+      
+        <meta name="author" content="Will Christerson">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
+    
+    
+      
+        <title>Neighborhood Map - Will Christerson</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.30686662.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#ef5350">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="red" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#neighborhood-map" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="Will Christerson" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon">import_contacts</i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Will Christerson
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Neighborhood Map
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/wbchristerson/pf/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    wbchristerson/pf
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="Will Christerson" class="md-nav__button md-logo">
+      
+        <i class="md-icon">import_contacts</i>
+      
+    </a>
+    Will Christerson
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/wbchristerson/pf/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    wbchristerson/pf
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Projects
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Projects
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../FlowerClassifier/" title="Neural Network Flower Classifier" class="md-nav__link">
+      Neural Network Flower Classifier
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../MaximumMatchings/" title="Maximum Matchings" class="md-nav__link">
+      Maximum Matchings
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Neighborhood Map" class="md-nav__link md-nav__link--active">
+      Neighborhood Map
+    </a>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../MobileFlashcards/" title="Mobile Flashcards" class="md-nav__link">
+      Mobile Flashcards
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Readables/" title="Readables" class="md-nav__link">
+      Readables
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../MyReads/" title="MyReads" class="md-nav__link">
+      MyReads
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../MathematicalDatabase/" title="Mathematical Database" class="md-nav__link">
+      Mathematical Database
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Frogger/" title="Frogger" class="md-nav__link">
+      Frogger
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../MatchingGame/" title="Matching Game" class="md-nav__link">
+      Matching Game
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../PixelArt/" title="Pixel Art" class="md-nav__link">
+      Pixel Art
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/wbchristerson/pf/edit/master/docs/NeighborhoodMap.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="neighborhood-map">Neighborhood Map</h1>
+<div style="display: flex; flex-direction: column; align-items: center">
+    <img alt="Image of the result of the algorithm" width="600" src="/assets/Neighborhood-Map-imgs/page-original.png">
+    <div style="margin-top: 20px">
+        GitHub repository: <a target="\_blank" href="https://github.com/wbchristerson/neighborhood-map">https://github.com/wbchristerson/neighborhood-map</a>
+    </div>
+</div>
+
+<p>This project includes a neighborhood map of <a href="https://www.citymb.info/" target="\_blank">Manhattan Beach, California</a> along with information about several venues there including local restaurants, ocean-related sites, and stores. The project was bootstrapped with <a href="https://github.com/facebook/create-react-app" target="\_blank">Create React App</a> and developed using <code>React</code>. The map feature used in the application was obtained via <code>react-google-maps</code>, an application that integrates <code>React</code> with Google Maps. In turn, that software was itself based on <a href="https://cloud.google.com/maps-platform/" target="\_blank">Google Maps API</a>. Documentation about <code>react-google-maps</code> can be found <a href="https://github.com/tomchentw/react-google-maps" target="\_blank">here</a>. In addition, the street views for markers that were used were obtained with the <a href="https://developers.google.com/maps/documentation/javascript/streetview" target="\_blank">street view feature</a> of Google Maps, also through <code>react-google-maps</code>. Data about the included venues were extracted using the <a href="https://developer.foursquare.com/" target="\_blank">Foursquare API</a>.</p>
+<details>
+    <summary>Structure</summary>
+    <br>
+    <div style="margin-bottom: 20px;">
+        The focus of this project is on utilizing APIs to develop an application in conjunction with React.
+    </div>
+</details>
+
+<details>
+    <summary>Design</summary>
+    <br>
+
+    Users begin with a map of the neighborhood together with a list view of venues. A search feature allows the user to filter this list and upon clicking any item, the user is taken to the chosen venue's item page, detailing information about the location, hours of operation, busy times of the week and day, a photo view, contact information, customer tips, and more.
+
+    <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px">
+        <img alt="A screenshot of the search page" width="500" src="/assets/Neighborhood-Map-imgs/filter-page.png" >
+    </div>
+
+    Clicking on the corresponding marker on the map will open a street view of the premises. Markers on the map are filtered in accordance with the filtered query and will animate/bounce when the corresponding item is clicked. Additional features include error handling for failed API requests, responsive design for mobile devices, accessibility features for motor- and visually-impaired users in the form of controlled focus, ARIA roles, and alternate image text, and finally, a service worker to cache the data of visited pages in the event of a poor network connection.
+
+    <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 30px">
+        <img alt="A screenshot of an individual information page listing data about the venue" width="500" src="/assets/Neighborhood-Map-imgs/information-page.png" >
+    </div>
+</details>
+
+<details>
+    <summary>Running The Application</summary>
+    <br>
+
+    To download, you can clone the repository using this terminal command:
+    <br>
+    <div style="margin-top: 10px;">
+        <code>git clone https://github.com/wbchristerson/neighborhood-map.git</code>
+    </div>
+
+    Alternatively, follow the instructions below to download to a hard drive and to run the application:
+    <ul>
+        <li>Navigate to <a href="https://github.com/wbchristerson/neighborhood-map" target="\_blank">this</a> page.</li>
+        <li>Click the green "Clone or download" button towards the right then choose "Download ZIP".</li>
+        <li>
+            Find the folder <code>neighborhood-map-master</code> in your Downloads folder or wherever it was placed on your device.
+        </li>
+        <li>Right click and choose "Extract All".</li>
+        <li>
+            To run the application, you will need to have <code>npm</code> installed. See <a href="https://www.npmjs.com/get-npm" target="\_blank">here</a> for installation information.
+        </li>
+        <li>
+            To install all dependencies for the project from the command line, run the following commands in the terminal from within the project directory:
+            <br>
+            <code>
+                cd neighborhood-map
+                <br>
+                npm install
+            </code>
+        </li>
+        <li>
+            You will need a <code>Google Maps Platform</code> API key along with a <code>Foursquare Client ID</code> and a <code>Foursquare Client Secret</code> to use in the application:
+            <ul>
+                <li>
+                    If you do not have a Google Maps API key already, then you can obtain a <code>Google Maps Platform</code> API key for free <a href="https://cloud.google.com/maps-platform/" target="\_blank">here</a>. You will have to create a billing account but there is a built in $200 credit.
+                </li>
+                <li>
+                    If you do not have the <code>Foursquare Client ID</code> or <code>Foursquare Client Secret</code>, then you can obtain them <a href="https://developer.foursquare.com/" target="\_blank">here</a> by first creating a free account.
+                </li>
+                <li>
+                    After you have all three data items, create a new folder in the <code>src</code> directory called <code>api</code>.
+                </li>
+                <li>
+                    Within <code>api</code>, create a Javascript file called <code>APIkey.js</code>. Within this file add the following lines, where <code>YOUR_GOOGLE_KEY</code>, <code>YOUR_FOURSQUARE_CLIENT_ID</code>, and <code>YOUR_FOURSQUARE_CLIENT_SECRET</code> are replaced by your personalized data values (don't forget the delimiting quotes):
+                    <br>
+                    <code>
+                        export const GOOGLE_MAP_API_KEY = 'YOUR_GOOGLE_KEY'
+                        <br>
+                        export const FOURSQUARE_CLIENT_ID = 'YOUR_FOURSQUARE_CLIENT_ID'
+                        <br>
+                        export const FOURSQUARE_CLIENT_SECRET = 'YOUR_FOURSQUARE_CLIENT_SECRET'
+                    </code>
+                </li>
+                <li>Save the file.</li>
+            </ul>
+        </li>
+        <li>
+            Assuming that your location in the terminal is now within the <code>neighborhood-map</code> directory, run the following command to execute the application:
+            <br>
+            <code>npm start</code>
+            <br>
+            (I believe that <code>yarn start</code> will also be sufficient.)
+        </li>
+        <li>
+            Warning: The service worker that is bundled with <code>create-react-app</code> only works in production mode.
+        </li>
+    </ul>
+
+    <div style="margin-bottom: 20px;">
+        The page will open in the browser.
+    </div>
+</details>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../MaximumMatchings/" title="Maximum Matchings" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Maximum Matchings
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../MobileFlashcards/" title="Mobile Flashcards" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Mobile Flashcards
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Built by <a href="https://github.com/wbchristerson">Will Christerson</a> &copy 2019
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/wbchristerson" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://www.linkedin.com/in/william-christerson/" class="md-footer-social__link fa fa-linkedin"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.ac79c3b0.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
