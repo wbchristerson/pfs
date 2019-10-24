@@ -1,7 +1,7 @@
 # Neighborhood Map
 
 <div style="display: flex; flex-direction: column; align-items: center">
-    <img alt="Image of the result of the algorithm" width="600" src="/assets/Neighborhood-Map-imgs/page-original.png">
+    <img alt="A sample image of a map showing Manhattan Beach, California and listed venues." width="600" src="/assets/Neighborhood-Map-imgs/page-original.png">
     <div style="margin-top: 20px">
         GitHub repository: <a target="\_blank" href="https://github.com/wbchristerson/neighborhood-map">https://github.com/wbchristerson/neighborhood-map</a>
     </div>
