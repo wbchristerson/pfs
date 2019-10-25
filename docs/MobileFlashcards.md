@@ -31,30 +31,30 @@ This project is a flashcard application for Android mobile devices in which user
 
     <br>
     <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
-        <img alt="A screenshot of the game's new deck page" width="200" src="/assets/Mobile-Flashcards-imgs/new-deck.png">
+        <img alt="A screenshot of the game's new deck page" width="200" style="max-height: 400px;" src="/assets/Mobile-Flashcards-imgs/new-deck.png">
     </div>
 
     Individual deck pages can be reached by clicking on a deck from the list view. This lists the name of the deck, the number of cards, and buttons for adding a card to the deck as well as for quizzing one's self.
 
     <br>
     <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
-        <img alt="A screenshot of the app's individual deck page" width="200" src="/assets/Mobile-Flashcards-imgs/deck.png">
+        <img alt="A screenshot of the app's individual deck page" width="200" style="max-height: 400px;" src="/assets/Mobile-Flashcards-imgs/deck.png">
     </div>
 
     The "new card" form is similar to the "new deck" form.
 
     <br>
     <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
-        <img alt="A screenshot of the app's new card page" width="200" src="/assets/Mobile-Flashcards-imgs/new-card.png">
+        <img alt="A screenshot of the app's new card page" width="200" style="max-height: 400px;" src="/assets/Mobile-Flashcards-imgs/new-card.png">
     </div>
 
     The quiz page displays the deck questions in order with an available button to check the answer and then grade one's self. Clicking the answer field will reveal the answer to the given question. When the user finishes looking through the deck, his/her score is shown.
 
     <br>
     <div style="display: flex; justify-content: space-around; margin-top: 20px; margin-bottom: 20px; flex-wrap: wrap;">
-        <img style="margin-top: 10px; margin-bottom: 20px; border: 1px solid #000000" alt="A screenshot of the app's question page" src="/assets/Mobile-Flashcards-imgs/quiz-question.png" width="200" style="border: 1px solid #000000;">
-        <img style="margin-top: 10px; margin-bottom: 20px; border: 1px solid #000000" alt="A screenshot of the app's question page with an answer" src="/assets/Mobile-Flashcards-imgs/quiz-answer.png" width="200"">
-        <img style="margin-top: 10px; margin-bottom: 20px; border: 1px solid #000000;" alt="A screenshot of the app's score result page" src="/assets/Mobile-Flashcards-imgs/finished-quiz.png" width="200">
+        <img style="margin-top: 10px; margin-bottom: 20px; border: 1px solid #000000" alt="A screenshot of the app's question page" src="/assets/Mobile-Flashcards-imgs/quiz-question.png" width="200" style="border: 1px solid #000000; max-height: 400px;">
+        <img style="margin-top: 10px; margin-bottom: 20px; border: 1px solid #000000; max-height: 400px;" alt="A screenshot of the app's question page with an answer" src="/assets/Mobile-Flashcards-imgs/quiz-answer.png" width="200">
+        <img style="margin-top: 10px; margin-bottom: 20px; border: 1px solid #000000; max-height: 400px;" alt="A screenshot of the app's score result page" src="/assets/Mobile-Flashcards-imgs/finished-quiz.png" width="200">
     <div>
 
     To maintain data for this application, I used the <code>AsyncStorage</code> key-value storage system heavily.
