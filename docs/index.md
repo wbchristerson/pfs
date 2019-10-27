@@ -79,7 +79,7 @@ For the past year and a half, I have been working as a software engineer at the 
     <div style="width: 300px; display: flex; flex-direction: column; justify-content: space-around; margin-bottom: 30px;">
         <a href="/MyReads">
             <div style="height: 270px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                <img alt="A sample image of the bookshelves page with book covers and titles shown in three categories" src="/assets/My-Reads-imgs/page-narrow.png">
+                <img alt="A sample image of the bookshelves page with book covers and titles shown in three categories" src="/assets/My-Reads-imgs/page-narrow.png" style="border: 1px solid #000000;">
             </div>
             <h2 style="margin-top: 0px">My Reads</h2>
             <p>
