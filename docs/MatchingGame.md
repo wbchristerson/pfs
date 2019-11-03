@@ -27,7 +27,7 @@ Using HTML, CSS, and JavaScript, this two-page application challenges the player
     The main screen includes a timer, a move counter, a reset button, and a star rating. Below is an example of the interface:
 
     <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
-        <img width="400" src="/assets/Matching-Game-imgs/memory-game-page.png" alt="A screenshot of the game's introductory page">
+        <img width="400" src="/assets/Matching-Game-imgs/memory-game-page.png" alt="A screenshot of the game's introductory page" style="max-height: 400px;">
     </div>
 
     Finishing with at most 15 moves yields a 3-star rating, finishing with more than 16 moves but at most 25 yields a 2-star rating, and finishing with more than 25 moves yields a 1-star rating. Here is an example end page:

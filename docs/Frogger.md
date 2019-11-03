@@ -44,7 +44,9 @@ This project re-creates the arcade game Frogger using JavaScript and a basic HTM
         <img style="margin-top: 10px; margin-bottom: 10px;" src="/assets/Frogger-imgs/end-page.png" alt="A screenshot of the end page upon a win" width="300">
     </div>
 
-    The game becomes increasingly difficult. The chance of each of three independent rocks appearing on screen increases up to level 5, after which time they will all always appear (though sometimes overlapping each other). One strategy to avoid losing lives is to wait for the right half of the screen to become clear and cross from that half (since enemy bugs always cross the screen from left to right). To further increase difficulty beyond level 5, a fourth rock will always appear somewhere in the rightmost column.
+    <div style="margin-bottom: 20px;">
+        The game becomes increasingly difficult. The chance of each of three independent rocks appearing on screen increases up to level 5, after which time they will all always appear (though sometimes overlapping each other). One strategy to avoid losing lives is to wait for the right half of the screen to become clear and cross from that half (since enemy bugs always cross the screen from left to right). To further increase difficulty beyond level 5, a fourth rock will always appear somewhere in the rightmost column.
+    </div>
 </details>
 
 <details>
