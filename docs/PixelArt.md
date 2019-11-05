@@ -24,26 +24,26 @@ This project is a one-page application to make colorful pixel images of varying 
     The application is a single page which begins with no shown grid and a default color of black.
 
     <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
-        <img width="400" style="border: 1px solid #000000" alt="Pixel art maker display before choosing the grid size or color" src="/assets/Pixel-Art-Maker-imgs/canvas-intro.png">
+        <img width="400" style="border: 1px solid #000000; max-height: 400px;" alt="Pixel art maker display before choosing the grid size or color" src="/assets/Pixel-Art-Maker-imgs/canvas-intro.png">
     </div>
 
     The dimensions of the grid are determined by an input element, which is designed to ensure that you can only enter a number between 1 and 50.
 
     <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
-        <img width="400" style="border: 1px solid #000000" alt="Pixel art maker display after choosing the grid size but not the color" src="/assets/Pixel-Art-Maker-imgs/canvas-grid.png">
+        <img width="400" style="border: 1px solid #000000; max-height: 400px;" alt="Pixel art maker display after choosing the grid size but not the color" src="/assets/Pixel-Art-Maker-imgs/canvas-grid.png">
     </div>
 
     By clicking on the color option, a window appears which shows the various colors that can be generated.
 
     <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
-        <img width="400" style="border: 1px solid #000000" alt="Pixel art maker display while selecting a canvas color" src="/assets/Pixel-Art-Maker-imgs/canvas-color.png">
+        <img width="400" style="border: 1px solid #000000; max-height: 400px;" alt="Pixel art maker display while selecting a canvas color" src="/assets/Pixel-Art-Maker-imgs/canvas-color.png">
     </div>
 
     Color the grid by clicking on individual pixels:
 
     <div style="display: flex; justify-content: space-around; margin-top: 20px; margin-bottom: 20px; flex-wrap: wrap;">
-        <img width="300" style="border: 1px solid #000000; margin-top: 10px; margin-bottom: 10px;" alt="Pixel art maker display while selecting a canvas color" src="/assets/Pixel-Art-Maker-imgs/canvas-blanket.png">
-        <img src="/assets/Pixel-Art-Maker-imgs/canvas-beach.png" alt="Pixel Art Maker Example Image Of Beach" width="300" style="border: 1px solid #000000; margin-top: 10px; margin-bottom: 10px;">
+        <img width="300" style="border: 1px solid #000000; margin-top: 10px; margin-bottom: 10px; max-height: 400px;" alt="Pixel art maker display while selecting a canvas color" src="/assets/Pixel-Art-Maker-imgs/canvas-blanket.png">
+        <img src="/assets/Pixel-Art-Maker-imgs/canvas-beach.png" alt="Pixel Art Maker Example Image Of Beach" width="300" style="border: 1px solid #000000; margin-top: 10px; margin-bottom: 10px; max-height: 400px;">
     </div>
 </details>
 
