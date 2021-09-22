@@ -40,7 +40,7 @@
     
     
       
-        <title>Pixel Art - Will Christerson</title>
+        <title>Disaster Reporter - Will Christerson</title>
       
     
     
@@ -89,7 +89,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#pixel-art" tabindex="1" class="md-skip">
+      <a href="#disaster-reporter" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -115,7 +115,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Pixel Art
+                Disaster Reporter
               
             </span>
           
@@ -257,11 +257,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../DisasterReporter/" title="Disaster Reporter" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Disaster Reporter" class="md-nav__link md-nav__link--active">
       Disaster Reporter
     </a>
+    
   </li>
 
         
@@ -377,20 +386,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Pixel Art" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../PixelArt/" title="Pixel Art" class="md-nav__link">
       Pixel Art
     </a>
-    
   </li>
 
         
@@ -426,75 +426,21 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/wbchristerson/pfs/edit/master/docs/PixelArt.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/wbchristerson/pfs/edit/master/docs/DisasterReporter.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="pixel-art">Pixel Art</h1>
+                <h1 id="disaster-reporter">Disaster Reporter</h1>
 <div style="display: flex; flex-direction: column; align-items: center">
-    <img style="border: 1px solid #000000" alt="A sample creation using this application." width="400" src="/assets/Pixel-Art-Maker-imgs/canvas-example.png">
+    <img alt="A sample screenshot of the site, including a listed disaster." width="600" src="/assets/Disaster-Reporter-imgs/usage-page.png" style="border: 1px solid #000000;">
     <div style="margin-top: 20px">
-        GitHub repository: <a target="\_blank" href="https://github.com/wbchristerson/pixel-art">https://github.com/wbchristerson/pixel-art</a>
+        GitHub repository: <a target="\_blank" href="https://github.com/wbchristerson/natural-disaster-tracker">https://github.com/wbchristerson/natural-disaster-tracker</a>
     </div>
+    <div style="margin-top: 20px">
+        Project site: <a target="\_blank" href="https://sample-will.herokuapp.com/#/dashboard">Site</a>
+    </div>
+
+    This project is a fullstack application for displaying witness reports of natural disasters. The database used is PostgreSQL, the back-end server was developed with Python using SQLAlchemy, and the front-end client was developed with the JavaScript library React. For more details about this project, see the GitHub repository or the site itself, both of which are linked above.
 </div>
-
-<p>This project is a one-page application to make colorful pixel images of varying grid sizes. Try the application <a href="https://wbchristerson.github.io/pixel-art/" target="\_blank">here</a>. Note: This project is based on a skeleton structure from Udacity. For more information, see the initial commit on the appropriate GitHub page given above.</p>
-<details>
-    <summary>Structure</summary>
-    <br>
-    <ul>
-        <li>The dimensions of the pixel grid can each be anything from 1 to 50.</li>
-        <li>Once the grid is created, you can choose various colors for the individual pixels.</li>
-    </ul>
-</details>
-
-<details>
-    <summary>Design</summary>
-    <br>
-    The application is a single page which begins with no shown grid and a default color of black.
-
-    <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
-        <img width="400" style="border: 1px solid #000000; max-height: 400px;" alt="Pixel art maker display before choosing the grid size or color" src="/assets/Pixel-Art-Maker-imgs/canvas-intro.png">
-    </div>
-
-    The dimensions of the grid are determined by an input element, which is designed to ensure that you can only enter a number between 1 and 50.
-
-    <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
-        <img width="400" style="border: 1px solid #000000; max-height: 400px;" alt="Pixel art maker display after choosing the grid size but not the color" src="/assets/Pixel-Art-Maker-imgs/canvas-grid.png">
-    </div>
-
-    By clicking on the color option, a window appears which shows the various colors that can be generated.
-
-    <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
-        <img width="400" style="border: 1px solid #000000; max-height: 400px;" alt="Pixel art maker display while selecting a canvas color" src="/assets/Pixel-Art-Maker-imgs/canvas-color.png">
-    </div>
-
-    Color the grid by clicking on individual pixels:
-
-    <div style="display: flex; justify-content: space-around; margin-top: 20px; margin-bottom: 20px; flex-wrap: wrap;">
-        <img width="300" style="border: 1px solid #000000; margin-top: 10px; margin-bottom: 10px; max-height: 400px;" alt="Pixel art maker display while selecting a canvas color" src="/assets/Pixel-Art-Maker-imgs/canvas-blanket.png">
-        <img src="/assets/Pixel-Art-Maker-imgs/canvas-beach.png" alt="Pixel Art Maker Example Image Of Beach" width="300" style="border: 1px solid #000000; margin-top: 10px; margin-bottom: 10px; max-height: 400px;">
-    </div>
-</details>
-
-<details>
-    <summary>Running The Application</summary>
-    <br>
-    Run the application in your browser by <a href="https://wbchristerson.github.io/pixel-art/" target="\_blank">clicking here</a>. To download, clone the repository using this terminal command:
-    <br>
-    <code>git clone https://github.com/wbchristerson/pixel-art.git</code>
-    <br>
-    <br>
-    Alternatively, follow the instructions below to download to a hard drive:
-
-    <ul>
-        <li>Navigate to <a href="https://github.com/wbchristerson/pixel-art" target="\_blank">this page</a>.</li>
-        <li>Click the green "Clone or download" button above then choose "Download ZIP".</li>
-        <li>Find the folder <code>pixel-art-master</code> in your Downloads folder or wherever it was placed on your device.</li>
-        <li>Right click and choose "Extract All".</li>
-        <li>Open your browser and use <code>Ctrl + O</code> (for Windows machines) to open the file selector on your device.</li>
-        <li>Go to <code>pixel-art-master</code>, enter <code>pixel-art-master</code> again, then select <code>index.html</code>. The game screen will appear.</li>
-    </ul>
-</details>
                 
                   
                 
@@ -515,7 +461,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../MatchingGame/" title="Matching Game" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href=".." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -524,11 +470,25 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Matching Game
+                Home
               </span>
             </div>
           </a>
         
+        
+          <a href="../FlowerClassifier/" title="Neural Network Flower Classifier" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Neural Network Flower Classifier
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
         
       </nav>
     </div>
