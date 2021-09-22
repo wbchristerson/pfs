@@ -11,9 +11,9 @@ This website showcases some projects that I have created in various programming 
 <div style="display: flex; flex-direction: row; justify-content: space-around; flex-wrap: wrap;">
 
     <div style="width: 300px; display: flex; flex-direction: column; justify-content: space-around; margin-bottom: 30px;">
-        <a href="/DisasterReporter">
+        <a href="./DisasterReporter">
             <div style="height: 270px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                <img alt="Sample classification results for an image" src="/assets/Disaster-Reporter-imgs/usage-page.png" width="200">
+                <img alt="Sample classification results for an image" src="./assets/Disaster-Reporter-imgs/usage-page.png" width="200">
             </div>
             <h2 style="margin-top: 0px">Disaster Reporter Site</h2>
             <p>
