@@ -24,25 +24,25 @@ This application keeps track of a user's book selections from a static database 
     The main page is composed of three sections for "currently reading", "want to read", and "read".
 
     <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
-        <img alt="A sample view of the main page showing three bookshelves with images of book covers, titles, and authors." src="/assets/My-Reads-imgs/full-page.png" width="500" style="border: 1px solid #000000; max-height: 300px;">
+        <img alt="A sample view of the main page showing three bookshelves with images of book covers, titles, and authors." src="../assets/My-Reads-imgs/full-page.png" width="500" style="border: 1px solid #000000; max-height: 300px;">
     </div>
 
     You can also add many books to a single section.
 
     <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
-        <img alt="A close up view of the 'currently reading' section with many books appearing in the form of book covers with titles and authors." src="/assets/My-Reads-imgs/many-books.png" width="500" style="border: 1px solid #000000; max-height: 300px;">
+        <img alt="A close up view of the 'currently reading' section with many books appearing in the form of book covers with titles and authors." src="../assets/My-Reads-imgs/many-books.png" width="500" style="border: 1px solid #000000; max-height: 300px;">
     </div>
 
     Selections can be modified by clicking on the arrow item for a single book.
 
     <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
-        <img alt="A view of a row of books with the selection tab open for one of the books, providing options for moving that book." src="/assets/My-Reads-imgs/entry-click.png" width="500" style="border: 1px solid #000000; max-height: 300px;">
+        <img alt="A view of a row of books with the selection tab open for one of the books, providing options for moving that book." src="../assets/My-Reads-imgs/entry-click.png" width="500" style="border: 1px solid #000000; max-height: 300px;">
     </div>
 
     The search page appears in a similar manner. Type in a search option and see the results that appear.
 
     <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
-        <img alt="The Blank Database Write Page" src="/assets/My-Reads-imgs/search-page.png" width="500" style="border: 1px solid #000000; max-height: 300px;">
+        <img alt="The Blank Database Write Page" src="../assets/My-Reads-imgs/search-page.png" width="500" style="border: 1px solid #000000; max-height: 300px;">
     </div>
 </details>
 

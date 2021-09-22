@@ -29,19 +29,19 @@ This project is a forum (content/comment) application in which users may post co
     <br>
 
     <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 30px;">
-        <img alt="A sample main page with posts sorted by latest modification." width="500" src="/assets/Readables-imgs/main-page.png" style="border: 1px solid #000000; max-height: 300px;">
+        <img alt="A sample main page with posts sorted by latest modification." width="500" src="../assets/Readables-imgs/main-page.png" style="border: 1px solid #000000; max-height: 300px;">
     </div>
 
     A view of a sample page for a specific post together with its associated comments:
 
     <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 30px;">
-        <img alt="A sample page for a specific post together with its associated comments." width="500" src="/assets/Readables-imgs/post-page-example.png" style="border: 1px solid #000000; max-height: 300px;">
+        <img alt="A sample page for a specific post together with its associated comments." width="500" src="../assets/Readables-imgs/post-page-example.png" style="border: 1px solid #000000; max-height: 300px;">
     </div>
 
     A sample edit modal for a post:
 
     <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 30px;">
-        <img style="border: 1px solid #000000; max-height: 300px;" alt="A sample edit modal for a post." width="500" src="/assets/Readables-imgs/edit-modal.png">
+        <img style="border: 1px solid #000000; max-height: 300px;" alt="A sample edit modal for a post." width="500" src="../assets/Readables-imgs/edit-modal.png">
     </div>
 </details>
 
