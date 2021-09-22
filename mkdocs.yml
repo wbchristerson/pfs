@@ -9,6 +9,7 @@ copyright: 'Built by <a href="https://github.com/wbchristerson">Will Christerson
 nav:
     - Home: index.md
     - Projects:
+        - Disaster Reporter: DisasterReporter.md
         - Neural Network Flower Classifier: FlowerClassifier.md
         - Maximum Matchings: MaximumMatchings.md
         - Neighborhood Map: NeighborhoodMap.md
