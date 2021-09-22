@@ -1,15 +1,27 @@
 # Hello!
 
-This website showcases some projects that I have created in various programming languages.
-In May 2017, I graduated with honors from Carnegie Mellon University with a Bachelor of Science in Mathematics. I am a native New Yorker and after completing my studies I returned to the city.
+This website showcases some projects that I have created in various programming languages. I am currently work as a software engineer at <a href="https://www.bloomberg.com/company/" target="\_blank">Bloomberg LP</a>.
 
-For the past year and a half, I have been working as a software engineer at the educational technology start-up <a href="https://101edu.co" target="\_blank">101 Edu</a>, dealing mostly with front-end development on web and mobile platforms but also with some exposure to server-side architecture. I am interested in discrete math, computer science, and applications of statistics and probability in finance. Lately, I have also been trying to learn more about machine learning with data analysis technologies like Numpy, Pandas, and TensorFlow.
+<!-- For the past year and a half, I have been working as a software engineer at the educational technology start-up <a href="https://101edu.co" target="\_blank">101 Edu</a>, dealing mostly with front-end development on web and mobile platforms but also with some exposure to server-side architecture. I am interested in discrete math, computer science, and applications of statistics and probability in finance. Lately, I have also been trying to learn more about machine learning with data analysis technologies like Numpy, Pandas, and TensorFlow. -->
 
 [Here](https://github.com/wbchristerson) is my GitHub account and [here](https://www.linkedin.com/in/william-christerson/) is my LinkedIn page.
 
 ## Projects
 
 <div style="display: flex; flex-direction: row; justify-content: space-around; flex-wrap: wrap;">
+
+    <div style="width: 300px; display: flex; flex-direction: column; justify-content: space-around; margin-bottom: 30px;">
+        <a href="/DisasterReporter">
+            <div style="height: 270px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <img alt="Sample classification results for an image" src="/assets/Disaster-Reporter-imgs/usage-page.png" width="200">
+            </div>
+            <h2 style="margin-top: 0px">Disaster Reporter Site</h2>
+            <p>
+                A fullstack application to provide an interface for users to create witness reports of natural disasters.
+            </p>
+            <h4>Python ⚬ SQLAlchemy ⚬ PostreSQL ⚬ React</h4>
+        </a>
+    </div>
 
     <div style="width: 300px; display: flex; flex-direction: column; justify-content: space-around; margin-bottom: 30px;">
         <a href="/FlowerClassifier">
