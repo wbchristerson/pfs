@@ -4,7 +4,7 @@ site_description: A site displaying some projects that I have created
 site_author: 'Will Christerson'
 
 # Copyright
-copyright: 'Built by <a href="https://github.com/wbchristerson">Will Christerson</a> &copy 2019'
+copyright: 'Built by <a href="https://github.com/wbchristerson">Will Christerson</a> &copy 2021'
 
 nav:
     - Home: index.md
