@@ -1,7 +1,7 @@
 # Disaster Reporter
 
 <div style="display: flex; flex-direction: column; align-items: center">
-    <img alt="A sample screenshot of the site, including a listed disaster." width="600" src="assets/Disaster-Reporter-imgs/usage-page.png" style="border: 1px solid #000000;">
+    <img alt="A sample screenshot of the site, including a listed disaster." width="600" src="../assets/Disaster-Reporter-imgs/usage-page.png" style="border: 1px solid #000000;">
     <div style="margin-top: 20px">
         GitHub repository: <a target="\_blank" href="https://github.com/wbchristerson/natural-disaster-tracker">https://github.com/wbchristerson/natural-disaster-tracker</a>
     </div>

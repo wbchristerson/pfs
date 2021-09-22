@@ -1,7 +1,7 @@
 # Matching Game
 
 <div style="display: flex; flex-direction: column; align-items: center">
-    <img alt="A sample image of the matching game during use" width="400" src="/assets/Matching-Game-imgs/display.png">
+    <img alt="A sample image of the matching game during use" width="400" src="../assets/Matching-Game-imgs/display.png">
     <div style="margin-top: 20px">
         GitHub repository: <a target="\_blank" href="https://github.com/wbchristerson/memory-game">https://github.com/wbchristerson/memory-game</a>
     </div>

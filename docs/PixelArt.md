@@ -1,7 +1,7 @@
 # Pixel Art
 
 <div style="display: flex; flex-direction: column; align-items: center">
-    <img style="border: 1px solid #000000" alt="A sample creation using this application." width="400" src="/assets/Pixel-Art-Maker-imgs/canvas-example.png">
+    <img style="border: 1px solid #000000" alt="A sample creation using this application." width="400" src="../assets/Pixel-Art-Maker-imgs/canvas-example.png">
     <div style="margin-top: 20px">
         GitHub repository: <a target="\_blank" href="https://github.com/wbchristerson/pixel-art">https://github.com/wbchristerson/pixel-art</a>
     </div>

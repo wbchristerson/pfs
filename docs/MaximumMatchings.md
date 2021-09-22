@@ -1,7 +1,7 @@
 # Maximum Matchings
 
 <div style="display: flex; flex-direction: column; align-items: center">
-    <img alt="Image of the result of the algorithm" width="500" src="/assets/Maximum-Matchings-imgs/main-sample-large.png">
+    <img alt="Image of the result of the algorithm" width="500" src="../assets/Maximum-Matchings-imgs/main-sample-large.png">
     <div style="margin-top: 20px">
         GitHub repository: <a target="\_blank" href="https://github.com/wbchristerson/perfect-matchings">https://github.com/wbchristerson/perfect-matchings</a>
     </div>

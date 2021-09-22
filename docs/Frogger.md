@@ -1,7 +1,7 @@
 # Frogger
 
 <div style="display: flex; flex-direction: column; align-items: center">
-    <img alt="A sample image of the game screen during use" width="300" src="/assets/Frogger-imgs/general-game.png">
+    <img alt="A sample image of the game screen during use" width="300" src="../assets/Frogger-imgs/general-game.png">
     <div style="margin-top: 20px">
         GitHub repository: <a target="\_blank" href="https://github.com/wbchristerson/arcade-game">https://github.com/wbchristerson/arcade-game</a>
     </div>

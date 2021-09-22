@@ -1,7 +1,7 @@
 # Neural Network Flower Classifier
 
 <div style="display: flex; flex-direction: column; align-items: center">
-    <img alt="Image of the result of the algorithm" width="400" alt="Sample classification results for an image" src="/assets/Flower-Classifier-imgs/Classification_Example.png">
+    <img alt="Image of the result of the algorithm" width="400" alt="Sample classification results for an image" src="..//assets/Flower-Classifier-imgs/Classification_Example.png">
     <div style="margin-top: 20px">
         GitHub repository: <a target="\_blank" href="https://github.com/wbchristerson/transfer-learning-classifier">https://github.com/wbchristerson/transfer-learning-classifier</a>
     </div>

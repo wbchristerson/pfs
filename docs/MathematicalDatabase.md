@@ -1,7 +1,7 @@
 # Mathematical Database
 
 <div style="display: flex; flex-direction: column; align-items: center">
-    <img alt="A sample image of the database main menu" width="300" src="/assets/Mathematical-Database-imgs/database-home.png">
+    <img alt="A sample image of the database main menu" width="300" src="../assets/Mathematical-Database-imgs/database-home.png">
     <div style="margin-top: 20px">
         GitHub repository: <a target="\_blank" href="https://github.com/wbchristerson/database">https://github.com/wbchristerson/database</a>
     </div>
