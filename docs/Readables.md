@@ -1,7 +1,7 @@
 # Readables
 
 <div style="display: flex; flex-direction: column; align-items: center">
-    <img alt="A sample image of the post page for an individual post including some comments." width="600" src="../assets/Readables-imgs/post-page.png" style="border: 1px solid #000000;">
+    <img alt="A sample image of the post page for an individual post including some comments." width="600" src="assets/Readables-imgs/post-page.png" style="border: 1px solid #000000;">
     <div style="margin-top: 20px">
         GitHub repository: <a target="\_blank" href="https://github.com/wbchristerson/reactnd-project-readable-starter">https://github.com/wbchristerson/reactnd-project-readable-starter</a>
     </div>
