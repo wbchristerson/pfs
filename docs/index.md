@@ -1,6 +1,6 @@
 # Hello!
 
-This website showcases some projects that I have created in various programming languages. I am currently working as a software engineer at <a href="https://www.bloomberg.com/company/" target="\_blank">Bloomberg LP</a>.
+This website showcases some projects that I have created in various programming languages. I am currently working as a software engineer at <a href="https://about.google/products/" target="\_blank">Google</a>.
 
 <!-- For the past year and a half, I have been working as a software engineer at the educational technology start-up <a href="https://101edu.co" target="\_blank">101 Edu</a>, dealing mostly with front-end development on web and mobile platforms but also with some exposure to server-side architecture. I am interested in discrete math, computer science, and applications of statistics and probability in finance. Lately, I have also been trying to learn more about machine learning with data analysis technologies like Numpy, Pandas, and TensorFlow. -->
 
